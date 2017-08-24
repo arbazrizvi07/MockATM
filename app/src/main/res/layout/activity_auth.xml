@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTheme"
+    tools:context="com.atm.product.neoatm.activities.AuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/dp_40"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_msg"
+            style="@style/App_TextviewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_enter_pin" />
+
+        <EditText
+            android:id="@+id/et_pin"
+            style="@style/App_EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:inputType="numberPassword"
+            android:maxLength="4" />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_40"
+            android:text="@string/txt_continue" />
+
+    </LinearLayout>
+
+</RelativeLayout>

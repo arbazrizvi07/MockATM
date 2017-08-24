@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_40"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                style="@style/App_TextviewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/txt_available_bal" />
+
+            <TextView
+                android:id="@+id/tv_balance"
+                style="@style/App_TextviewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rs "
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/App_TextviewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/txt_summary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_summary"
+            style="@style/App_TextviewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10" />
+
+        <Button
+            android:id="@+id/btn_another_transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_40"
+            android:text="@string/txt_do_another_trans" />
+
+    </LinearLayout>
+
+</RelativeLayout>

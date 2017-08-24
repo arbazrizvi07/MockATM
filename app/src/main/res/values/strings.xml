@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NEOATM</string>
+    <string name="txt_enter_pin">Please Enter Your Pin To Continue</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_check_balance">Check Balance</string>
+    <string name="txt_withdraw_money">Withdraw Money</string>
+    <string name="msg_invalid_pin">Invalid Pin</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_enter_amount">Please Enter Amount</string>
+    <string name="msg_invalid_amount">Invalid Amount</string>
+    <string name="msg_insufficient_bal">Insufficient Balance</string>
+    <string name="txt_available_bal">Available Balance : </string>
+    <string name="txt_summary">Summary</string>
+    <string name="txt_do_another_trans">Do Another Transaction</string>
+    <string name="txt_collect_cash">Please Collect Your Cash</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_balance">Your Available balance is : Rs </string>
+</resources>
